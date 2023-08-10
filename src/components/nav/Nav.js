@@ -6,6 +6,7 @@ import CallIcon from '@mui/icons-material/Call';
 import AccountTreeIcon from '@mui/icons-material/AccountTree';
 import IntegrationInstructionsIcon from '@mui/icons-material/IntegrationInstructions';
 import ImportContactsIcon from '@mui/icons-material/ImportContacts';
+import BadgeIcon from '@mui/icons-material/Badge';
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('#');
@@ -30,6 +31,9 @@ const Nav = () => {
       </a>
       <a href="#portfolio" onClick={() => handleClick('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}>
         <AccountTreeIcon/>
+      </a>
+      <a href="#certifications" onClick={() => handleClick('#certifications')} className={activeNav === '#certifications' ? 'active' : ''}>
+        <BadgeIcon/>
       </a>
       <a href="#contact" onClick={() => handleClick('#contact')} className={activeNav === '#contact' ? 'active' : ''}>
         <CallIcon/>

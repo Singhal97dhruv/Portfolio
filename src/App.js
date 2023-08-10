@@ -8,7 +8,7 @@ import Testimonials from './components/testimonials/Testimonials';
 import Portfolio from './components/portfolio/Portfolio';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
-
+import Certifications from './components/Certifications/Certifications';
 function App() {
   return (
     <div className="App">
@@ -20,6 +20,7 @@ function App() {
     <Services/>
     <Testimonials/>
     <Portfolio />
+    <Certifications/>
     <Contact/>
     <Footer/>
                
