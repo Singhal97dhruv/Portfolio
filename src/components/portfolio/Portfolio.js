@@ -40,8 +40,8 @@ const data=[
     id:4,
     image: IMG4,
     title: "Fitness Website",
-    github: "https://github.com/Singhal97dhruv/Fitness-Website",
-    demo: 'https://github.com/Singhal97dhruv/Fitness-Website'
+    github: "https://github.com/Singhal97dhruv/Gym-Website",
+    demo: 'https://gym-website-ol89.onrender.com/'
 
   },
   {
